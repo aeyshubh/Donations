@@ -3,19 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.8.1",
     "@superfluid-finance/sdk-core": "0.4.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "daisyui": "^2.49.0",
-    "ethers": "5.5.2",
+    "ethers": "^5.5.2",
     "graphql": "16.2.0",
     "lodash": "4.17.21",
+    "rainbowkit": "^0.0.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
     "react-daisyui": "^3.0.2",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "wagmi": "^0.11.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
