@@ -118,6 +118,7 @@ async function scheduleStream(_RA, _startDate, _Amt, _EndDate) {
         console.log(error)
     }
 }
+
   const provider = new ethers.providers.Web3Provider(window.ethereum);
   const chainId = await window.ethereum.request({ method: "eth_chainId" });
   var d1 = new Date(_startDate);
@@ -128,7 +129,7 @@ async function scheduleStream(_RA, _startDate, _Amt, _EndDate) {
   /* console.log("Start Date = "+d1.getTime());
   console.log("End Date = "+d2.getTime()); */
   const signer = provider.getSigner();
-  const contractAddress = "0x8A6f0FC9Fe2c13565a9db3bBE0953C334B4D4bFF";
+  const contractAddress = "0xA6134E107FCAEAab6140CB8fb92Dbf5bd9EF6C86";
   const contractABI = abi;
   try{
   const peer = new Contract(
