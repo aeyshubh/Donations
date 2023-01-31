@@ -129,7 +129,7 @@ async function scheduleStream(_RA, _startDate, _Amt, _EndDate) {
   /* console.log("Start Date = "+d1.getTime());
   console.log("End Date = "+d2.getTime()); */
   const signer = provider.getSigner();
-  const contractAddress = "0xA6134E107FCAEAab6140CB8fb92Dbf5bd9EF6C86";
+  const contractAddress = "0xF18825d412C061aEfEFB4dF46a1c077636dA50bf";
   const contractABI = abi;
   try{
   const peer = new Contract(
